@@ -4,3 +4,5 @@ This repository is related to issue <https://github.com/HSLdevcom/jore4/issues/3
 
 Attempt to match HSL GTFS route geometries to Digiroad.
 Then maybe rematch those onto OpenStreetMap and compare to routes in Digitransit.
+
+1. Tried [QGIS](qgis-approach.md). Moving on.
