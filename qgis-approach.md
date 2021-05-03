@@ -57,18 +57,18 @@ This is not necessary, though.
 
 1. In main window, click from the menu Processing Toolbox > Vector creation > Points to path.
 1. Set Input layer to "Reprojected".
-1. Set Order expression to "shape\_pt\_sequence".
-1. Set Path group expression to "shape\_id".
+1. Set Order expression to "shape_pt_sequence".
+1. Set Path group expression to "shape_id".
 1. Click Run to create layer Paths.
 
 ### Order and style layers (optional)
 
 1. In the Layers panel of main window, drag Digitransit raster to bottom.
-1. Set the "DR\_LINKKI\_K" as the second-lowest layer.
+1. Set the "DR_LINKKI_K" as the second-lowest layer.
 1. Toggle shapes off.
 1. Toggle Reprojected off.
 1. Toggle Paths on.
-1. With focus on "DR\_LINKKI\_K", press F7 to open Layer Styling panel.
+1. With focus on "DR_LINKKI_K", press F7 to open Layer Styling panel.
 1. Set Width to 2 mm and Opacity to 25 %.
 1. Select Paths layer.
 1. Set Width to 1 mm.
@@ -83,7 +83,7 @@ This is not necessary, though.
 To speed up the algorithm, only include an area around the selected route.
 Also remove ways for pedestrians and cyclists.
 
-1. Select layer "DR\_LINKKI\K".
+1. Select layer "DR_LINKKI\K".
 1. Choose tool Select Features by Area or Single Click from the toolbar.
 1. Drag a rectangle around the chosen route, leaving maybe 100 meters of buffer all around the route.
 1. Click menu Edit > Copy Features.
@@ -104,6 +104,6 @@ I did not try that.
 1. Click the button Match Trajectory on the toolbar OfflineMapMatching.
 1. Set Network layer to "DR\_LINKKI\_K".
 1. Set Trajectory layer to the layer with just one route.
-1. Set Trajectory ID to shape\_pt\_sequence.
+1. Set Trajectory ID to shape_pt_sequence.
 1. Set Matching type to Based on network routing (slow).
 1. Click Run.
