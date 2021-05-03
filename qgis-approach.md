@@ -41,12 +41,15 @@ For visual ease, open Digitransit raster maps as background.
 1. Set file name to `shapes.txt`.
 1. Set X field to "stop_lon".
 1. Set Y field to "stop_lat".
+1. Set Geometry CRS to EPSG:4326, for example "Project CRS: EPSG:4326 --".
 1. Click Add to create layer shapes.
 
 @jarkkoka realized that algorithm does not work with spherical coordinates so we will reproject shapes into the same projection as Digiroad.
 
 1. In main window, click from the menu Processing > Toolbox > Vector general > Reproject layer.
 1. Set Input layer to "shapes".
+1. Click button "Select CRS".
+1. Type "3067" into textbox Filter.
 1. Set Target CRS to "EPSG:3067".
 1. Click Run to create layer Reprojected.
 
