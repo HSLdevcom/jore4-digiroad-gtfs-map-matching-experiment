@@ -46,7 +46,7 @@ For visual ease, open Digitransit raster maps as background.
 
 @jarkkoka realized that algorithm does not work with spherical coordinates so we will reproject shapes into the same projection as Digiroad.
 
-1. In main window, click from the menu Processing > Toolbox > Vector general > Reproject layer.
+1. In main window, click from the menu Processing > Toolbox > Vector general > Reproject layer. (The search box is handy for navigating to the right tool.)
 1. Set Input layer to "shapes".
 1. Click button "Select CRS".
 1. Type "3067" into textbox Filter.
