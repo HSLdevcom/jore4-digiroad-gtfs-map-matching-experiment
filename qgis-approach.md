@@ -102,7 +102,7 @@ I did not try that.
 1. In main window, click Plugins > Manage and Install Plugins...
 1. Install Offline-MapMatching.
 1. Click the button Match Trajectory on the toolbar OfflineMapMatching.
-1. Set Network layer to "DR\_LINKKI\_K".
+1. Set Network layer to "Around route".
 1. Set Trajectory layer to the layer with just one route.
 1. Set Trajectory ID to shape_pt_sequence.
 1. Set Matching type to Based on network routing (slow).
