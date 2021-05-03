@@ -9,7 +9,7 @@ The plugins might offer enough functionality for this proof of concept.
   - QGIS
   - QGIS plugin Offline-MapMatching (QGIS > Plugins > Manage and Install Plugins)
 - Download
-  - The latest GTFS dump: <https://infopalvelut.storage.hsldev.com//gtfs/hsl.zip>
+  - The latest GTFS dump: <https://infopalvelut.storage.hsldev.com/gtfs/hsl.zip>
   - The latest Digiroad Uusimaa K: <https://aineistot.vayla.fi/digiroad/latest/Maakuntajako_DIGIROAD_K_EUREF-FIN/UUSIMAA.zip>
 
 ## Workflow
