@@ -78,6 +78,9 @@ This is not necessary, though.
 
 ### Select one route as the trajectory
 
+We can only map match one route at a time.
+Let's extract one route from all of the shapes.
+
 1. Click Processing Toolbox > Vector Selection > Extract by attribute.
 1. Extract from "Reprojected" with `shape_id = 1088B_20210522_2`.
 
