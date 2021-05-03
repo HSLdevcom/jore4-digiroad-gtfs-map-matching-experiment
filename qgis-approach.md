@@ -93,19 +93,26 @@ Also remove ways for pedestrians and cyclists.
 1. Press `Ctrl+Alt+V` to Paste Features As Temporary Scratch Layer...
 1. Give a name like "Around route".
 
-Another way is to create a buffer automatically and clip Digiroad within that buffer.
-I did not try that.
+Another way to crop is to generate a buffer based on the route and clip Digiroad within that buffer.
+I did not try this:
 
 1. Click Processing Toolbox > Vector geometry > Buffer.
 1. Create a buffer layer around the route.
 1. Click Processing Toolbox > Vector overlay > Extract/clip by extent.
+
+To filter pedestrian and cyclist ways out of Around route:
+
+1. Click Processing toolbox > Vector selection > Extract by expression.
+1. Set Input layer to "Around route".
+1. Set Expression to `"LINKKITYYP" NOT IN (8,9)`.
+1. Click Run to create layer "Matching features".
 
 ### Run map matching
 
 1. In main window, click Plugins > Manage and Install Plugins...
 1. Install Offline-MapMatching.
 1. Click the button Match Trajectory on the toolbar OfflineMapMatching.
-1. Set Network layer to "Around route".
+1. Set Network layer to "Matching features".
 1. Set Trajectory layer to the layer with just one route.
 1. Set Trajectory ID to shape_pt_sequence.
 1. Set Matching type to Based on network routing (slow).
