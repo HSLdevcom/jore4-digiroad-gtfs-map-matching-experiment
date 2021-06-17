@@ -82,7 +82,7 @@ We can only map match one route at a time.
 Let's extract one route from all of the shapes.
 
 1. Click Processing Toolbox > Vector Selection > Extract by attribute.
-1. Extract from "Reprojected" with `shape_id = 1088B_20210522_2` or e.g. `shape_id = 1003H3_20210712_1`. In case you suspect there is no data for the given id, choose another shape_id of your liking. To see a list of shape_id's, use e.g. the "identify results" -tool in qgis.
+1. Extract from "Reprojected" with `shape_id = 1088B_20210522_2` or e.g. `shape_id = 1004X_20180917_1`. In case you suspect there is no data for the given id, choose another shape_id of your liking. To see a list of shape_id's, use e.g. the "identify results" -tool in qgis. Beware that the following steps are meant to be used with roads, so be sure to pick a bus line trajectory and not e.g. a tram line trajectory.
 
 ### Crop and filter the street network
 
